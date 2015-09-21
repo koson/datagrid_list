@@ -32,8 +32,16 @@ namespace DataGridView_List
             g2.code = "0002";
             g2.name = "IPhone I6";
             g2.price = 30000;
-            // 3.2 เพิ่มสินค้าเข้าสู่ List
+            // 3.3 เพิ่มสินค้าเข้าสู่ List
             goods.Add(g2);
+
+            // 3.4 สร้างสินค้าอีกหนึ่งรายการ
+            Items g3 = new Items();
+            g3.code = "0003";
+            g3.name = "OPPO";
+            g3.price = 15000;
+            // 3.5 เพิ่มสินค้าเข้าสู่ List
+            goods.Add(g3);
 
             // ถึงตรงนี้จะมีรายการสินค้าใน List<items> ที่ชื่อ goods อยู่ทั้งสิ้น 2 รายการ
             // ตั้ง break point ที่ปีกกาปิด แล้วกด RUN เพื่อดูว่าถูกต้องหรือไม่
